@@ -25,7 +25,7 @@ def get_sales_data():
         print("Data should be six numbers, separated by commas.")
         print("Example: 10,20,30,40,50,60\n")
 
-        data_str = input("Enter your data here:\n ")
+        data_str = input("Enter your data here:\n")
 
         sales_data = data_str.split(",")
 
@@ -55,6 +55,8 @@ def validate_data(values):
     return True
 
 
+
+
 # def update_sales_worksheet(data):
 #     """
 #     Update sales worksheet, add new row with the list data provided
@@ -72,6 +74,7 @@ def validate_data(values):
 #     surplus_worksheet = SHEET.worksheet("surplus")
 #     surplus_worksheet.append_row(data)
 #     print("Surplus worksheet updated successfully.\n")
+
 
 def update_worksheet(data, worksheet):
     """
